@@ -1,0 +1,32 @@
+.preferens {
+    background: #1599fc;
+    margin: 110px 0;
+    padding: 50px;
+
+    .services-block {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+.pref-prof {
+    position: relative;
+
+    padding: 10px;
+    img {
+        position: absolute;
+        left: -38px;
+        top: 11px;
+    }
+}
+.pref__title {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 900;
+}
+.pref_text {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 8px 0;
+    min-height: 106px;
+    color: #fff;
+}
